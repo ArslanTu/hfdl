@@ -1,0 +1,11 @@
+@hostname = 127.0.0.1
+@port = 8000
+
+###
+
+@name = get_script
+
+@path = /
+@hf_path = Qwen/Qwen1.5-14B-Chat
+
+GET http://{{hostname}}:{{port}}{{path}}?hf_path={{hf_path}} HTTP/1.1
